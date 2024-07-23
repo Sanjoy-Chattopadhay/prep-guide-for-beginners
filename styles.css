@@ -1,0 +1,730 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212; /* Dark background color */
+    color: #EDE8F5; /* Light text color */
+}
+
+header {
+    background-color: #1E1E1E; /* Darker background for header */
+    color: #EDE8F5; /* Light text color for header */
+}
+
+header h1 {
+    margin: 0;
+}
+
+footer {
+    background-color: #1E1E1E; /* Darker background for footer */
+    color: #EDE8F5; /* Light text color for footer */
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #EDE8F5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #9E9E9E; /* Slightly lighter color on hover */
+}
+
+a {
+    color: #BB86FC; /* Light color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #8C4DFF; /* Lighter color on hover */
+    transition: color 0.3s ease;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-fluid:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.motivation-item {
+    padding: 15px;
+    border-radius: 8px;
+    background: #1E1E1E; /* Slightly lighter dark background for items */
+    margin-bottom: 20px;
+}
+
+.motivation-item .row {
+    align-items: center;
+}
+
+.motivation-icon {
+    font-size: 2rem;
+    color: #BB86FC; /* Icon color */
+    margin-bottom: 10px;
+}
+
+.text-content h4 {
+    color: #eae6f0; /* Heading color */
+}
+
+.text-content p {
+    color: #efefef; /* Improved contrast for description text */
+}
+
+.description {
+    font-style: italic;
+    color: #c3c3db; /* Description text color */
+}
+
+.motivation-line {
+    border-top: 1px solid #2C2C2C;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* New styles for images */
+.image-content img {
+    width: 150px; /* Set width */
+    height: 150px; /* Set height */
+    border-radius: 50%; /* Make images round */
+    object-fit: cover; /* Ensure images cover the circle */
+    border: 3px solid #BB86FC; /* Optional: Add a border to make images stand out */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-content img:hover {
+    transform: scale(1.1); /* Slightly zoom in on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+
+
+footer {
+    background-color: #1E1E1E; /* Darker background for footer */
+    color: #EDE8F5; /* Light text color for footer */
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #EDE8F5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #9E9E9E; /* Slightly lighter color on hover */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    color: var(--header-color);
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: var(--button-hover);
+}
+
+
+/* Footer Styles */
+/* Dark Footer Theme Colors */
+:root {
+    --footer-background: #1c1c1c; /* Darker background color for footer */
+    --footer-text-color: #e0e0e0; /* Light text color for better contrast */
+    --footer-link-color: #9e9e9e; /* Lighter color for links */
+    --footer-link-hover-color: #ffffff; /* Color for links on hover */
+    --footer-header-color: #ffffff; /* Header text color */
+}
+/* Footer Section */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: var(--footer-background);
+    color: var(--footer-text-color);
+}
+
+footer a {
+    color: var(--footer-link-color);
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: var(--footer-link-hover-color);
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Space between items */
+}
+
+.footer-container img {
+    width: 30px; /* Slightly smaller icons */
+    height: 30px;
+    margin-top: 10px;
+}
+
+.footer-container .footer-text {
+    margin-bottom: 10px;
+}
+
+.footer-text h2 {
+    font-size: 1.2em;
+    color: var(--footer-header-color);
+    margin: 0;
+}
+
+.styled-hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, var(--footer-background), var(--footer-text-color), var(--footer-background));
+    margin: 20px 0;
+}
+
+
+footer .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+footer .footer-links div {
+    text-align: center;
+}
+
+footer .footer-links a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.9em;
+    margin-top: 5px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+footer .footer-links a:hover {
+    color: #eaeaea;
+    transform: scale(1.05);
+}
+
+footer .footer-links i {
+    font-size: 2em;
+    display: block;
+    margin-bottom: 5px;
+}
+
+footer .footer-credit {
+    margin-top: 10px;
+    font-size: 0.8em;
+    color: #ffffff;
+}
+
+.footer-credit a {
+    color: #50e3c2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-credit a:hover {
+    text-decoration: underline;
+}
+
+/* Dark Footer Theme Colors */
+:root {
+    --footer-background: #1c1c1c; /* Darker background color for footer */
+    --footer-text-color: #e0e0e0; /* Light text color for better contrast */
+    --footer-link-color: #9e9e9e; /* Lighter color for links */
+    --footer-link-hover-color: #ffffff; /* Color for links on hover */
+    --footer-header-color: #ffffff; /* Header text color */
+}
+
+
+.footer-credit {
+    margin-top: 10px;
+    font-size: 0.8em;
+    color: #ffffff;
+}
+
+.footer-credit p {
+    margin: 0;
+}
+
+.footer-credit a {
+    color: #50e3c2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-credit a:hover {
+    text-decoration: underline;
+}
+
+/* Apply to all images */
+img {
+    width: 300px; /* Set a specific width for rectangular images */
+    height: 200px; /* Set a specific height for rectangular images */
+    object-fit: cover; /* Ensures the image covers the specified area without distortion */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease; /* Smooth transitions for hover effects */
+    border-radius: 8px; /* Optional: Rounded corners */
+}
+
+/* Cool hover effect */
+img:hover {
+    transform: scale(1.1) rotate(3deg); /* Slight zoom and rotation */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow for depth */
+    filter: brightness(1.1); /* Slightly brighten the image on hover */
+}
+
+/* Base styling for all <a> tags */
+a {
+    text-decoration: none; /* Remove default underline */
+    color: #007bff; /* Default link color */
+    font-weight: 500; /* Slightly bolder font */
+    transition: color 0.3s ease, background-color 0.3s ease, padding 0.3s ease, border-radius 0.3s ease; /* Smooth transitions */
+    padding: 10px 15px; /* Add padding around the link */
+    border-radius: 5px; /* Rounded corners for the background */
+    display: inline-block; /* Ensure padding and background apply correctly */
+}
+
+/* Hover effect for links */
+a:hover {
+    color: #ffffff; /* Change text color on hover */
+    background-color: #2C2C2C; /* Change background color on hover */
+    padding: 10px 20px; /* Increase padding on hover for a larger button effect */
+    border-radius: 8px; /* Make corners more rounded on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+/* Additional styles for links within buttons or specific elements */
+button a, .btn a {
+    color: #ffffff; /* White color for links inside buttons */
+    background-color: #007bff; /* Button background color */
+    padding: 10px 20px; /* Padding for buttons */
+    border-radius: 5px; /* Rounded corners for buttons */
+}
+
+/* Hover effect for links inside buttons */
+button a:hover, .btn a:hover {
+    background-color: #2C2C2C; /* Darker background color on hover */
+    color: #ffffff; /* Ensure text color remains white */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}
+
+
+/* Basic style for elements that will move */
+.mouse-move-effect {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #007bff; /* Blue background color */
+    border-radius: 50%; /* Circular shape */
+    transition: transform 0.3s ease; /* Smooth transformation */
+    will-change: transform; /* Optimize performance for transformation */
+}
+
+/* Example of a floating effect */
+.float-effect {
+    transform: translateY(0px); /* Initial position */
+}
+
+/* Style for more pronounced movement on hover */
+.float-effect:hover {
+    transform: translateY(-10px); /* Move up when hovered */
+}
+
+
+#study-resources {
+    background-color: #1E1E1E; /* Dark background for section */
+    padding: 40px 0;
+    color: #EDE8F5; /* Light text color */
+}
+
+#study-resources h2 {
+    color: #BB86FC; /* Accent color */
+}
+
+.resource-section {
+    border: 1px solid #2C2C2C;
+    border-radius: 10px;
+    padding: 20px;
+    background: #2C2C2C; /* Slightly lighter dark background */
+    margin-bottom: 30px;
+}
+
+.resource-section h3 {
+    color: #EAE6F0; /* Heading color */
+}
+
+.resource-section p {
+    color: #D3D3D3; /* Description text color */
+}
+
+.resource-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.resource-column {
+    flex: 1;
+    margin: 0 10px;
+    background: #3C3C3C; /* Background for each column */
+    border-radius: 8px;
+    padding: 15px;
+    color: #EDE8F5;
+}
+
+.resource-column h4 {
+    color: #BB86FC; /* Accent color */
+}
+
+.resource-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.resource-column li {
+    margin-bottom: 10px;
+}
+
+.resource-column a {
+    color: #BB86FC; /* Accent color */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.resource-column a:hover {
+    color: #43187b; /* Lighter accent color on hover */
+}
+
+@media (max-width: 768px) {
+    .resource-container {
+        flex-direction: column;
+    }
+
+    .resource-column {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* Styles for the DBMS Resources section */
+#dbms-resources {
+    background-color: #2C2C2C; /* Background color for DBMS section */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#dbms-resources h2 {
+    color: #EDE8F5; /* Light color for headings */
+}
+
+#dbms-resources p {
+    color: #D0D0D0; /* Slightly lighter text color */
+}
+
+.resource-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.resource-column {
+    flex: 1;
+    background: #1E1E1E; /* Dark background for columns */
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.resource-column h4 {
+    color: #BB86FC; /* Accent color for headings */
+    margin-bottom: 10px;
+}
+
+.resource-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.resource-column li {
+    margin-bottom: 10px;
+}
+
+.resource-column a {
+    color: #BB86FC; /* Accent color for links */
+    text-decoration: none;
+}
+
+.resource-column a:hover {
+    color: #43187b; /* Lighter accent color on hover */
+}
+
+@media (max-width: 768px) {
+    .resource-container {
+        flex-direction: column;
+    }
+
+    .resource-column {
+        margin-bottom: 20px;
+    }
+}
+/* Background styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #EDE8F5; /* Light text color */
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), /* Dark gradient with transparency */
+        rgba(0, 0, 0, 0.9) /* Darker gradient with more transparency */
+    ), url('path-to-your-background-image.jpg'); /* Background image */
+    background-size: cover; /* Ensure background image covers the whole screen */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Fixed background to create a parallax effect */
+}
+
+/* Specific styles for different sections to ensure readability */
+header, footer {
+    background-color: rgba(30, 30, 30, 0.8); /* Semi-transparent background for header and footer */
+}
+
+section {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for sections */
+    border-radius: 8px; /* Rounded corners for sections */
+    padding: 20px;
+}
+
+/* Ensure readability of text on dark backgrounds */
+h1, h2, h3, h4, h5, h6 {
+    color: #EDE8F5; /* Light color for headings */
+}
+
+p, a, li {
+    color: #D0D0D0; /* Slightly lighter text color for paragraphs, links, and list items */
+}
+
+/* Optional: Add a subtle overlay effect for extra drama */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    z-index: -1; /* Place overlay behind content */
+}
+
+/* Ensure text contrast and readability */
+.text-content {
+    color: #EDE8F5; /* Light color for text */
+}
+
+.text-content h4 {
+    color: #BB86FC; /* Accent color for subheadings */
+}
+
+.text-content p, .text-content a {
+    color: #D0D0D0; /* Slightly lighter text color for paragraphs and links */
+}
+
+/* Additional styling for the paid courses section */
+.paid-courses {
+    margin-top: 40px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.paid-courses h3 {
+    color: #BB86FC;
+    margin-bottom: 20px;
+}
+
+.paid-courses ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.paid-courses ul li {
+    color: #EDE8F5;
+    margin-bottom: 10px;
+}
+
+.paid-courses ul li a {
+    color: #BB86FC;
+    text-decoration: none;
+}
+
+.paid-courses ul li a:hover {
+    color: #8C4DFF;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #43187b; /* Faded black color on hover */
+}
+
+
+/* Add this to your styles.css file */
+.time-left-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Pushes the button to the right */
+}
+
+#timeLeftBtn {
+    margin-right: 10px;
+}
+
+#timeLeft {
+    color: #fff;
+    font-size: 14px;
+}
+
+
+
+/* Grid layout for creator sections */
+.creator-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+    gap: 20px; /* Space between columns */
+}
+
+.creator-column {
+    background: #1E1E1E; /* Dark background for each column */
+    padding: 15px;
+    border-radius: 8px;
+    color: #EDE8F5; /* Light text color */
+}
+
+.creator-column h3 {
+    color: #BB86FC; /* Accent color for headings */
+}
+
+.creator-list {
+    list-style: none;
+    padding: 0;
+}
+
+.creator-list li {
+    margin-bottom: 10px;
+}
+
+.creator-list a {
+    color: #BB86FC; /* Accent color for links */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.creator-list a:hover {
+    color: #43187b; /* Lighter accent color on hover */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 1200px) {
+    .creator-grid {
+        grid-template-columns: repeat(3, 1fr); /* Three columns for medium screens */
+    }
+}
+
+@media (max-width: 900px) {
+    .creator-grid {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for smaller screens */
+    }
+}
+
+@media (max-width: 600px) {
+    .creator-grid {
+        grid-template-columns: 1fr; /* Single column for very small screens */
+    }
+}
+
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00, 0 0 15px #00FF00, 0 0 20px #00FF00, 0 0 30px #00FF00, 0 0 40px #00FF00, 0 0 50px #00FF00;
+    }
+    50% {
+        text-shadow: 0 0 10px #00FF00, 0 0 20px #00FF00, 0 0 30px #00FF00, 0 0 40px #00FF00, 0 0 50px #00FF00, 0 0 60px #00FF00, 0 0 70px #00FF00;
+    }
+    100% {
+        text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00, 0 0 15px #00FF00, 0 0 20px #00FF00, 0 0 30px #00FF00, 0 0 40px #00FF00, 0 0 50px #00FF00;
+    }
+}
+
+.digital-clock {
+    animation: glow 1.5s ease-in-out infinite;
+}
+
+
+.digital-clock {
+    border: 3px solid #00FF00; /* Green border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px; /* Add some space inside the border */
+}
+
+
+.digital-clock {
+    text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00, 0 0 15px #00FF00;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Subtle green glow around the clock */
+}
+
+
+.digital-clock {
+    font-size: 3rem; /* Larger font size */
+    padding: 20px; /* More padding */
+}
+
+
+/* Container for the digital clock and message */
+.digital-clock-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8); /* Slightly darker background for contrast */
+    border-radius: 15px; /* Rounded corners for the container */
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5); /* Glow effect around the container */
+    max-width: 300px; /* Limit the width of the container */
+    margin: auto; /* Center the container horizontally */
+}
+
+/* Style for the digital clock */
+.digital-clock {
+    font-family: 'Digital-7', sans-serif; /* Use a digital-style font */
+    font-size: 3rem; /* Font size for the clock */
+    color: #00FF00; /* Green color for the clock */
+    background: #000000; /* Black background */
+    padding: 20px;
+    border-radius: 10px;
+    text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00, 0 0 15px #00FF00;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Glow effect */
+}
+
+/* Style for the message below the clock */
+.clock-message {
+    font-size: 1.2rem; /* Slightly larger font size for readability */
+    color: #EDE8F5; /* Light color for the message text */
+    margin-top: 15px; /* Space above the message */
+    text-align: center; /* Center align the text */
+    padding: 10px;
+    border: 2px solid #BB86FC; /* Border to make the message stand out */
+    border-radius: 8px; /* Rounded corners for the border */
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for message */
+}
